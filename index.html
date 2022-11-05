@@ -19,29 +19,47 @@
 <body>
 
     <!-- Navbar Element (fixed at top) | additional fixed top class added to nav  -->
-        <nav class="navbar fixed-top navbar-expand-lg navbar-expand-md navbar-dark bg-dark">
-            <!-- As a Heading - start align class -->
-            <span class="navbar-brand mb-0 h1 justify-content-start">Aywin Kattappuram</span>
-            <!-- Toggler Button -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <!-- Nav links/Toggler links | end align class -->
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-              <div class="navbar-nav">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-expand-md navbar-dark bg-dark">
+        <!-- As a Heading - start align class -->
+        <span class="navbar-brand mb-0 h1 justify-content-start font-weight-bold">AK</span>
+        <!-- Toggler Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Nav links/Toggler links | end align class -->
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
                 <a class="nav-item nav-link" href="#home">Home</a>
                 <a class="nav-item nav-link" href="#work">Work</a>
                 <a class="nav-item nav-link" href="#skills">Skills</a>
                 <a class="nav-item nav-link" href="#about">About Me</a>
                 <a class="nav-item nav-link" href="#contact">Contact Me!</a>
                 <a class="nav-item nav-link" href="#socials">Socials</a>
-              </div>
             </div>
-          </nav>
+        </div>
+    </nav>
 
+    <!-- Hero Element - The Jumbotron -->
+    <div class="jumbotron jumbotron-fluid custom_hero">
+        <!-- nav id added to container so that destination position makes sense -->
+        <div class="container" id="home">
+            <div class="row align-items-center">
+                <div class="col-12">
+                    <h1 class="display-4 font-weight-bold text-center text-break">Aywin Kattappuram</h1>
+                </div>
+                <div class="w-100"></div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <img src="assets/images/Aywin2.jpg" class="img-fluid rounded-circle map img-responsive"
+                        alt="Responsive self image">
+                </div>
+                <div class="col-lg-8 col-md-8 col-sm-12 justify-content-center align-items-center text-break">
+                    <p class="lead text-center text-break mh-100">Hello There!</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
-
-          
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
