@@ -5,7 +5,7 @@ body {
 
 /* move background in future back into html as img and custom style it */
 .custom_hero {
-    background: transparent url('../images/Hero_image.png') no-repeat center center /cover ;
+    /* background: transparent url('../images/Hero_image.png') no-repeat center center /cover ; */
 }
 
 .custom_hero img {
@@ -14,5 +14,5 @@ body {
 
 .custom_hero .lead {
     /* color: red; */
-    font-size: 5.5em !important;
+    /* font-size: 5.5em !important; */
 }
