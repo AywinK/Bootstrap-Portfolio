@@ -1,6 +1,6 @@
 body {
-    background-image: linear-gradient(from top, gray,black); 
-    background-color: grey;
+    /* background-image: linear-gradient(from top, gray,black);  */
+    /* background-color: grey; */
 }
 
 /* move background in future back into html as img and custom style it */
