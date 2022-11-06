@@ -9,10 +9,10 @@ body {
 }
 
 .custom_hero img {
-    max-height: 50em;
+    /* max-height: 50em; */
 }
 
 .custom_hero .lead {
-    color: red;
+    /* color: red; */
     font-size: 5.5em !important;
 }
