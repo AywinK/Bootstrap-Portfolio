@@ -1,18 +1,104 @@
+:root {
+    /* Webpage Theme Colours */
+    --color_1: #353839;
+    --color_2: #c8a2c8;
+    --color_3: #FFFAFA;
+    --font_fam: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+  }
+
+/* Universal Selectors */
+* {
+    color: var(--color_3) !important;
+    font-family: var(--font_fam) !important;
+    
+  }
+
+  /* Body Element Selectors */
 body {
-    /* background-image: linear-gradient(from top, gray,black);  */
-    /* background-color: grey; */
+    background: var(--color_1) !important;
+
 }
 
-/* move background in future back into html as img and custom style it */
+/* Heading2 global class selectors */
+h2 {
+    text-decoration: underline !important;
+    font-weight: bold !important;
+}
+
+/* navbar Element Selectors */
+.navbar {
+    background-image: linear-gradient(to bottom, var(--color_2), var(--color_1)) !important;
+    transition: 1.2s !important;
+}
+.navbar a:hover {
+    color: var(--color_1) !important;
+    font-weight: bold !important;
+    border-radius: 1.0rem !important;
+    background-color: var(--color_3) !important;
+
+}
+
+/* navbar-brand styling */
+.navbar-brand {
+    text-shadow: 0 0 .1em, 0 0 .3em !important;
+}
+
+
+/* Jumbotron styling - alt text doesn't add anything useful */
 .custom_hero {
-    /* background: transparent url('../images/Hero_image.png') no-repeat center center /cover ; */
+    background: transparent url('../images/Hero_image.png') no-repeat center center /cover !important;
+    opacity: 0.7 !important;
+}
+.custom_hero h1 {
+    text-shadow: var(--color_2) 0 0 .1em, 0 0 .3em !important;
 }
 
 .custom_hero img {
-    /* max-height: 50em; */
+    box-shadow: 0.4rem 0.4rem var(--color_2), -0.4rem 0 .4rem var(--color_2) !important;
 }
 
 .custom_hero .lead {
-    /* color: red; */
-    /* font-size: 5.5em !important; */
+    text-shadow: 0.2rem 0.2rem var(--color_2) !important;
+    font-weight: bold !important;
+    text-decoration: underline !important;
+}
+
+/* Work styling */
+#work .card img {
+    filter: opacity(0.2);
+    transition: 0.6s !important;
+    /* object-fit: cover !important; */
+}
+
+#featured a img {
+    filter: opacity(0.5) !important;
+}
+
+#work .card img:hover {
+    filter: none !important;
+    transition: 1.2s !important;
+}
+
+/* Skills styling */
+#skills h4 {
+    color: var(--color_2) !important;
+    font-weight: bold !important;
+    text-shadow: var(--color_1) 0.05em 0.05em !important;
+}
+
+#skills li {
+    color: var(--color_1) !important;
+}
+
+/* Footer styling */
+#socials img {
+    transition: 1.2s !important;
+    border-radius: 70%;
+}
+
+#socials img:hover {
+    transition: 1.2s !important;
+    transform:scale(1.5) !important;
+    box-shadow: .15em .15em .15em .15em var(--color_2) inset !important;
 }
