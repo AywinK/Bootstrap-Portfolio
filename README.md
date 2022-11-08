@@ -4,6 +4,9 @@
 My web development portfolio created using Bootstrap v4.4 Framework with custom CSS. The Bootstrap framework's responsive web layout design is used for the webpage layout at all screen sizes.
 
 ## Usage
+
+Custom colours, font families, and text decoration are applied additionally with another stylesheet to match the developer portfolio created from scratch.
+
 ### Navigation Menu
 The webpage features fixed navigation bar at the top of the viewport to move around the webpage. On smaller width devices such as phones, the navigation bar collapses into a hamburger menu containing the links. The original hamburger menu is intended as a toggle button, however in this project, the data-toggle attribute is changed from "collapse" to "dropdown." This has minor side-effects such as loss of animation styles, removing functionality from other dropdown mensu (none on this webpage) and not being able to collapse the expanded navigation menu. However, automatically collapsing menu reduces user input required to navigate the webpage as the menu collapses when anywhere else on the webpage is clicked.
 
