@@ -91,6 +91,11 @@ h2 {
     color: var(--color_1) !important;
 }
 
+/* Contact styling */
+form button:hover {
+    color: initial !important;
+}
+
 /* Footer styling */
 #socials img {
     transition: 1.2s !important;
